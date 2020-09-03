@@ -22,7 +22,7 @@ public class OTP extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		String name=req.getParameter("name"),email=req.getParameter("email"),contact=req.getParameter("contact");
 		setemail(email);
-		String u="https://63857cceaaa6.ngrok.io/?mail ="+email;
+		String u="https://28a8d47ed36c.ngrok.io/?mail="+email;
 		 URL url = new URL(u);
 		 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 		 conn.setRequestMethod("GET");
