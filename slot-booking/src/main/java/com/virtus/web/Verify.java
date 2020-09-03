@@ -17,8 +17,7 @@ public class Verify extends HttpServlet {
 		try {
 			String enteredOTP=req.getParameter("otp");
 			HttpSession session=req.getSession(false);  
-			System.out.println("fasdaff");
-				
+							
 	        String n=(String)session.getAttribute("OTP");
 			if(n.equals(enteredOTP)) {
 				/*Cookie ck=new Cookie("Successful","True");//creating cookie object

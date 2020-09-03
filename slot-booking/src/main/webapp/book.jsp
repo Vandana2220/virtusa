@@ -87,7 +87,7 @@
                    // maxDate: new Date('2020-8-26')
                     useCurrent: true,
                     format: 'y-m-d H:00',
-                    value:'2020-7-14 09:00',
+                    value:'2020-9-3 09:00',
                     step:60,  
     //minTime: '09:00:00',
                     //maxTime: '16:00:00',

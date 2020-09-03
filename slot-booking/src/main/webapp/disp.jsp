@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <%@ import="" %>
+    
  <% 
     if(session.getAttribute("name")==null)response.sendRedirect("/slot-booking/custLogin.jsp");
     %>
@@ -68,7 +68,7 @@ response.setHeader("Cache-Control","no-cache,no-store,must-validate");%>
   </div>
   <div  style="padding-left: 770px">
   <input  class="logoutbtn" type="submit" value="Log Out"></div>
-  <
+  
   </form>
   
 
