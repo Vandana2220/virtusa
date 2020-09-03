@@ -16,7 +16,7 @@
   <style>
     body {
        background-color: lightblue;
-       class="jumbotron text-center";
+    
     }
     .center {
       margin: auto;
